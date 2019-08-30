@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre&display=swap');
+/*  font-family: 'Cormorant Garamond', serif;
+    font-family: 'Proza Libre', sans-serif; */
+
+#main {
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.captionText {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 0.90em;
+    padding-top: 20px;
+}
+
+#img-div {
+    background-color: #FFFFFF;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#subjectTitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    font-weight: bold; 
+    padding-top: 50px; 
+    text-align: center;
+}
+
+#tribute-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50vw;
+}
+
+li {
+    margin: 20px auto;
+}
+
+p {
+    width: 50vw;
+    font-style: italic;
+    font-size: 1.3em;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h5 {
+    padding-top: 20px;
+    font-family: 'Proza Libre', sans-serif;
+}
